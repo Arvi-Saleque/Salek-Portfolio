@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Salek_Portfolio.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%: Page.Title %> | Salek Portfolio</title>
+
+    <!-- Google Fonts + Font Awesome (allowed) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+    <!-- Site CSS -->
+    <link href="<%: ResolveUrl("~/Content/site.css") %>" rel="stylesheet" />
+
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <form runat="server">
+        <header class="site-header">
+            <div class="container nav-wrap">
+                <a class="logo" href="#home">Salek</a>
+
+                <button type="button" class="nav-toggle" id="navToggle"
+                        aria-label="Open navigation" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <nav id="mainNav" class="nav">
+                    <a href="#home" class="nav__link">Home</a>
+                    <a href="#about" class="nav__link">About</a>
+                    <a href="#edu" class="nav__link">Education</a>
+                    <a href="#skills" class="nav__link">Skills</a>
+                    <a href="#works" class="nav__link">Works</a>
+                    <a href="#awards" class="nav__link">Achievements</a>
+                    <a href="#contact" class="nav__link">Contact</a>
+
+                    <!-- Admin goes to another page, keep server resolution -->
+                    <a href="<%: ResolveUrl("~/Admin/Default.aspx") %>" class="btn btn--sm btn--ghost nav__admin">
+                        <i class="fa-solid fa-gear"></i> Admin
+                    </a>
+                </nav>
+
+
+            </div>
+        </header>
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>© <%: DateTime.Now.Year %> Salek. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <!-- Site JS -->
+        <script src="<%: ResolveUrl("~/Scripts/main.js") %>"></script>
+    </form>
+</body>
+</html>
