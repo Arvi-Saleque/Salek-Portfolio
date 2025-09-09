@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title><%: Page.Title %> | Salek Portfolio</title>
 
+    <meta name="description" content="Salek — full‑stack .NET developer portfolio: projects, skills, education and contact." />
+    <meta name="theme-color" content="#0f172a" />
+    <meta property="og:title" content="Salek Portfolio" />
+    <meta property="og:description" content="ASP.NET, JavaScript and SQL Server projects, skills and achievements." />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="<%: Request.Url.GetLeftPart(UriPartial.Authority) + ResolveUrl("~/") %>" />
+
+
     <!-- Google Fonts + Font Awesome (allowed) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,6 +29,8 @@
 </head>
 <body>
     <form runat="server">
+        <a class="skip-link" href="#main">Skip to content</a>
+
         <header class="site-header">
             <div class="container nav-wrap">
                 <a class="logo" href="#home">Salek</a>
@@ -40,16 +50,32 @@
                     <a href="#contact" class="nav__link">Contact</a>
 
                     <!-- Admin goes to another page, keep server resolution -->
-                    <a href="<%: ResolveUrl("~/Admin/Default.aspx") %>" class="btn btn--sm btn--ghost nav__admin">
-                        <i class="fa-solid fa-gear"></i> Admin
-                    </a>
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                      <AnonymousTemplate>
+                        <a href="<%: ResolveUrl("~/Admin/Default.aspx") %>" class="btn btn--sm btn--ghost nav__admin">
+                          <i class="fa-solid fa-gear"></i> Admin
+                        </a>
+                      </AnonymousTemplate>
+                      <LoggedInTemplate>
+                        <a href="<%: ResolveUrl("~/Admin/Default.aspx") %>" class="btn btn--sm btn--ghost nav__admin">
+                          <i class="fa-solid fa-gauge"></i> Dashboard
+                        </a>
+                        <a href="<%: ResolveUrl("~/Logout.aspx") %>" class="btn btn--sm btn--ghost nav__admin">
+                          <i class="fa-solid fa-right-from-bracket"></i> Logout
+                        </a>
+                      </LoggedInTemplate>
+                    </asp:LoginView>
+
                 </nav>
 
 
             </div>
         </header>
 
-        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        <main id="main" tabindex="-1" role="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </main>
+
 
         <footer class="site-footer">
             <div class="container">

@@ -682,3 +682,50 @@ img {
 .hero, .section {
     scroll-margin-top: 80px;
 }
+
+/* ===== Accessibility / SEO helpers ===== */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+    .skip-link:focus {
+        left: 1rem;
+        top: 1rem;
+        width: auto;
+        height: auto;
+        background: #111827;
+        color: #fff;
+        border: 1px solid rgba(255,255,255,.2);
+        padding: .5rem .75rem;
+        border-radius: 8px;
+        z-index: 9999;
+    }
+
+/* Visible focus for keyboard nav */
+a:focus-visible, button:focus-visible, .nav__link:focus-visible,
+.input:focus-visible, .textarea:focus-visible, .btn:focus-visible {
+    outline: 3px solid rgba(34,211,238,.55);
+    outline-offset: 2px;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important
+    }
+
+    html {
+        scroll-behavior: auto
+    }
+}
+
+/* Ensure anchor scroll stops below sticky header everywhere */
+.hero, .section {
+    scroll-margin-top: 80px;
+}

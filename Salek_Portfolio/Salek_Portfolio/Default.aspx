@@ -97,69 +97,65 @@
             <div class="skill-cat">
                 <h3>Frontend</h3>
                 <ul class="skill-list">
-                    <li class="skill">
-                        <span class="skill__label">HTML5 &amp; CSS3</span>
-                        <div class="skill__meter" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                            <span style="width:95%"><span class="sr-only">95%</span></span>
+                  <asp:Repeater ID="rptSkillsFrontend" runat="server">
+                    <ItemTemplate>
+                      <li class="skill">
+                        <span class="skill__label"><%# Eval("Name") %></span>
+                        <div class="skill__meter"
+                             role="progressbar"
+                             aria-valuemin="0" aria-valuemax="100"
+                             aria-valuenow='<%# Eval("Proficiency") %>'>
+                          <span style='<%# "width:" + Eval("Proficiency") + "%;" %>'>
+                            <span class="sr-only"><%# Eval("Proficiency") %>%</span>
+                          </span>
                         </div>
-                    </li>
-                    <li class="skill">
-                        <span class="skill__label">JavaScript (ES6+)</span>
-                        <div class="skill__meter" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                            <span style="width:85%"><span class="sr-only">85%</span></span>
-                        </div>
-                    </li>
-                    <li class="skill">
-                        <span class="skill__label">Responsive / A11y</span>
-                        <div class="skill__meter" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                            <span style="width:90%"><span class="sr-only">90%</span></span>
-                        </div>
-                    </li>
+                      </li>
+                    </ItemTemplate>
+                  </asp:Repeater>
                 </ul>
+
             </div>
 
             <!-- Backend -->
             <div class="skill-cat">
                 <h3>Backend (.NET)</h3>
                 <ul class="skill-list">
-                    <li class="skill">
-                        <span class="skill__label">ASP.NET Web Forms / MVC</span>
-                        <div class="skill__meter" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
-                            <span style="width:88%"><span class="sr-only">88%</span></span>
+                  <asp:Repeater ID="rptSkillsBackend" runat="server">
+                    <ItemTemplate>
+                      <li class="skill">
+                        <span class="skill__label"><%# Eval("Name") %></span>
+                        <div class="skill__meter" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                             aria-valuenow='<%# Eval("Proficiency") %>'>
+                          <span style='<%# "width:" + Eval("Proficiency") + "%;" %>'>
+                            <span class="sr-only"><%# Eval("Proficiency") %>%</span>
+                          </span>
                         </div>
-                    </li>
-                    <li class="skill">
-                        <span class="skill__label">C# / OOP</span>
-                        <div class="skill__meter" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                            <span style="width:90%"><span class="sr-only">90%</span></span>
-                        </div>
-                    </li>
-                    <li class="skill">
-                        <span class="skill__label">REST APIs</span>
-                        <div class="skill__meter" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                            <span style="width:80%"><span class="sr-only">80%</span></span>
-                        </div>
-                    </li>
+                      </li>
+                    </ItemTemplate>
+                  </asp:Repeater>
                 </ul>
+
             </div>
 
             <!-- Database -->
             <div class="skill-cat">
                 <h3>Database</h3>
                 <ul class="skill-list">
-                    <li class="skill">
-                        <span class="skill__label">SQL Server / T‑SQL</span>
-                        <div class="skill__meter" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                            <span style="width:85%"><span class="sr-only">85%</span></span>
+                  <asp:Repeater ID="rptSkillsDatabase" runat="server">
+                    <ItemTemplate>
+                      <li class="skill">
+                        <span class="skill__label"><%# Eval("Name") %></span>
+                        <div class="skill__meter" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                             aria-valuenow='<%# Eval("Proficiency") %>'>
+                          <span style='<%# "width:" + Eval("Proficiency") + "%;" %>'>
+                            <span class="sr-only"><%# Eval("Proficiency") %>%</span>
+                          </span>
                         </div>
-                    </li>
-                    <li class="skill">
-                        <span class="skill__label">EF / ADO.NET</span>
-                        <div class="skill__meter" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <span style="width:75%"><span class="sr-only">75%</span></span>
-                        </div>
-                    </li>
+                      </li>
+                    </ItemTemplate>
+                  </asp:Repeater>
                 </ul>
+
             </div>
 
             <!-- Tools & Practices -->
@@ -184,110 +180,41 @@
         <p class="section__lead">A few things I’ve built and shipped.</p>
 
         <div class="work-grid">
-
-            <article class="work">
-                <div class="work__media">
-                    <img src="Content/img/pro-1.jpg" alt="Project One screenshot">
-                </div>
-                <div class="work__body">
-                    <h3 class="work__title">Project One</h3>
-                    <p class="work__desc">Modern portfolio site built with ASP.NET, vanilla JS, and SQL Server.</p>
-                    <ul class="work__tags">
-                        <li>ASP.NET</li><li>WebForms</li><li>SQL Server</li>
-                    </ul>
-                    <div class="work__actions">
-                        <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Live</a>
-                        <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Code</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="work">
-                <div class="work__media">
-                    <img src="Content/img/pro-2.jpg" alt="Project Two screenshot">
-                </div>
-                <div class="work__body">
-                    <h3 class="work__title">Project Two</h3>
-                    <p class="work__desc">Task manager with authentication and role‑based access.</p>
-                    <ul class="work__tags">
-                        <li>C#</li><li>ADO.NET</li><li>Auth</li>
-                    </ul>
-                    <div class="work__actions">
-                        <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Live</a>
-                        <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Code</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="work">
-                <div class="work__media">
-                    <img src="Content/img/pro-1.jpg" alt="Project Three screenshot">
-                </div>
-                <div class="work__body">
-                    <h3 class="work__title">Project Three</h3>
-                    <p class="work__desc">RESTful API for a small e‑commerce catalog.</p>
-                    <ul class="work__tags">
-                        <li>Web API</li><li>EF</li><li>JSON</li>
-                    </ul>
-                    <div class="work__actions">
-                        <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Live</a>
-                        <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Code</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="work">
-                <div class="work__media">
-                    <img src="Content/img/pro-2.jpg" alt="Project Four screenshot">
-                </div>
-                <div class="work__body">
-                    <h3 class="work__title">Project Four</h3>
-                    <p class="work__desc">Analytics dashboard with charts and CSV export.</p>
-                    <ul class="work__tags">
-                        <li>ASP.NET</li><li>Charts</li><li>CSV</li>
-                    </ul>
-                    <div class="work__actions">
-                        <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Live</a>
-                        <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Code</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="work">
-                <div class="work__media">
-                    <img src="Content/img/pro-1.jpg" alt="Project Five screenshot">
-                </div>
-                <div class="work__body">
-                    <h3 class="work__title">Project Five</h3>
-                    <p class="work__desc">Content site with a simple CMS backend.</p>
-                    <ul class="work__tags">
-                        <li>Admin</li><li>CRUD</li><li>SQL</li>
-                    </ul>
-                    <div class="work__actions">
-                        <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Live</a>
-                        <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Code</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="work">
-                <div class="work__media">
-                    <img src="Content/img/pro-2.jpg" alt="Project Six screenshot">
-                </div>
-                <div class="work__body">
-                    <h3 class="work__title">Project Six</h3>
-                    <p class="work__desc">Small SPA‑like UI with vanilla JS and clean API calls.</p>
-                    <ul class="work__tags">
-                        <li>JavaScript</li><li>Fetch</li><li>UX</li>
-                    </ul>
-                    <div class="work__actions">
-                        <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Live</a>
-                        <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Code</a>
-                    </div>
-                </div>
-            </article>
-
+  <asp:Repeater ID="rptProjects" runat="server" OnItemDataBound="rptProjects_ItemDataBound">
+    <ItemTemplate>
+      <article class="work">
+        <div class="work__media">
+          <img alt='<%# Eval("Title") %> screenshot'
+               src='<%# Convert.ToString(Eval("ImagePath")) %>'
+               loading="lazy" decoding="async"
+               onerror="this.src='Content/img/pro-1.jpg';" />
         </div>
+        <div class="work__body">
+          <h3 class="work__title"><%# Eval("Title") %></h3>
+          <p class="work__desc"><%# Eval("Description") %></p>
+
+          <ul class="work__tags">
+            <asp:Repeater ID="rptTags" runat="server">
+              <ItemTemplate><li><%# Container.DataItem %></li></ItemTemplate>
+            </asp:Repeater>
+          </ul>
+
+          <div class="work__actions">
+            <asp:HyperLink runat="server" CssClass="btn btn--sm"
+              NavigateUrl='<%# Convert.ToString(Eval("LiveUrl")) %>'
+              Target="_blank" rel="noopener" Text="Live"
+              Visible='<%# !string.IsNullOrWhiteSpace(Convert.ToString(Eval("LiveUrl"))) %>' />
+            <asp:HyperLink runat="server" CssClass="btn btn--sm btn--ghost"
+              NavigateUrl='<%# Convert.ToString(Eval("CodeUrl")) %>'
+              Target="_blank" rel="noopener" Text="Code"
+              Visible='<%# !string.IsNullOrWhiteSpace(Convert.ToString(Eval("CodeUrl"))) %>' />
+          </div>
+        </div>
+      </article>
+    </ItemTemplate>
+  </asp:Repeater>
+</div>
+
     </div>
 </section>
 
@@ -299,47 +226,31 @@
 
         <div class="achievements-grid">
 
-            <article class="achievement">
-                <div class="achievement__icon" aria-hidden="true">
-                    <i class="fa-solid fa-trophy"></i>
-                </div>
-                <div class="achievement__meta">
-                    <h3 class="achievement__title">Winner — University Hackathon</h3>
-                    <p class="muted achievement__org">TechFest · 2023</p>
-                    <p class="achievement__desc">
-                        Built a real‑time task board using ASP.NET and SignalR in 24 hours.
-                    </p>
-                    <div class="achievement__actions">
-                        <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Event details</a>
-                    </div>
-                </div>
-            </article>
+            <asp:Repeater ID="rptAchievements" runat="server">
+  <ItemTemplate>
+    <article class="achievement">
+      <div class="achievement__icon" aria-hidden="true">
+        <i class="fa-solid <%# Convert.ToString(Eval("Icon")) %>"></i>
+      </div>
+      <div class="achievement__meta">
+        <h3 class="achievement__title"><%# Eval("Title") %></h3>
+        <p class="muted achievement__org">
+          <%# Eval("Organization") %>
+          <%# string.IsNullOrWhiteSpace(Convert.ToString(Eval("Organization"))) ? "" : " · " %>
+          <%# Eval("AwardDate", "{0:yyyy}") %>
+        </p>
+        <p class="achievement__desc"><%# Eval("Description") %></p>
+        <div class="achievement__actions">
+          <asp:HyperLink runat="server" CssClass="btn btn--sm btn--ghost"
+            NavigateUrl='<%# Convert.ToString(Eval("VerifyUrl")) %>'
+            Target="_blank" rel="noopener" Text="Verify"
+            Visible='<%# !string.IsNullOrWhiteSpace(Convert.ToString(Eval("VerifyUrl"))) %>' />
+        </div>
+      </div>
+    </article>
+  </ItemTemplate>
+</asp:Repeater>
 
-            <article class="achievement">
-                <div class="achievement__icon" aria-hidden="true">
-                    <i class="fa-solid fa-certificate"></i>
-                </div>
-                <div class="achievement__meta">
-                    <h3 class="achievement__title">Microsoft Certified: Azure Fundamentals</h3>
-                    <p class="muted achievement__org">Microsoft · 2022</p>
-                    <div class="achievement__actions">
-                        <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Verify</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="achievement">
-                <div class="achievement__icon" aria-hidden="true">
-                    <i class="fa-solid fa-award"></i>
-                </div>
-                <div class="achievement__meta">
-                    <h3 class="achievement__title">Top 10 — Web Dev Challenge</h3>
-                    <p class="muted achievement__org">DevCommunity · 2021</p>
-                    <p class="achievement__desc">
-                        Optimized a responsive dashboard and improved performance scores.
-                    </p>
-                </div>
-            </article>
 
         </div>
     </div>
