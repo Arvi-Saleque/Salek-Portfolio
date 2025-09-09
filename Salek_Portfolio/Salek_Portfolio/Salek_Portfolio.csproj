@@ -101,6 +101,15 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <None Include="Admin\web.config" />
+    <Compile Include="Admin\Skills.aspx.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Skills.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="Admin\Skills.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
     <Compile Include="Admin\Default.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>

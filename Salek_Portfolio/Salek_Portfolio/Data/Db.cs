@@ -23,5 +23,30 @@ namespace Salek_Portfolio.Data
                 return dt;
             }
         }
+
+        public static int Execute(string sql, params SqlParameter[] parameters)
+        {
+            using (var con = new SqlConnection(CS))
+            using (var cmd = new SqlCommand(sql, con))
+            {
+                if (parameters != null && parameters.Length > 0)
+                    cmd.Parameters.AddRange(parameters);
+                con.Open();
+                return cmd.ExecuteNonQuery();
+            }
+        }
+
+        public static object Scalar(string sql, params SqlParameter[] parameters)
+        {
+            using (var con = new SqlConnection(CS))
+            using (var cmd = new SqlCommand(sql, con))
+            {
+                if (parameters != null && parameters.Length > 0)
+                    cmd.Parameters.AddRange(parameters);
+                con.Open();
+                return cmd.ExecuteScalar();
+            }
+        }
+
     }
 }
