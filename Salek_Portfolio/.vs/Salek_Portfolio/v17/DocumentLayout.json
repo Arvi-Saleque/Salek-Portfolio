@@ -3,91 +3,103 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\projects.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\projects.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\skills.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\skills.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\projects.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\projects.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\projects.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\projects.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\skills.aspx||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\skills.aspx||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\default.aspx||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\default.aspx||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\data\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\data\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\skills.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\skills.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\data\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\data\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\data\\db.cs||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\achievements.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\achievements.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\admin\\projects.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\projects.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\admin\\achievements.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\achievements.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\admin\\achievements.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\achievements.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\admin\\projects.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\projects.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\data\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\data\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\admin\\skills.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\skills.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\admin\\projects.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\projects.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\admin\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\admin\\skills.aspx||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\skills.aspx||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\admin\\default.aspx||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\default.aspx||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\admin\\skills.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\skills.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\data\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\data\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\admin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\data\\db.cs||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\data\\db.cs||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\scripts\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\scripts\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\scripts\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\salek_portfolio\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -98,47 +110,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Projects.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Projects.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx.designer.cs",
-              "RelativeToolTip": "Salek_Portfolio\\Admin\\Projects.aspx.designer.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T03:48:45.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Projects.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx.cs",
-              "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Projects.aspx.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx.cs*",
-              "RelativeToolTip": "Salek_Portfolio\\Admin\\Projects.aspx.cs*",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAuwG4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T03:48:20.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Projects.aspx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx",
-              "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Projects.aspx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx",
-              "RelativeToolTip": "Salek_Portfolio\\Admin\\Projects.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-09T03:48:01.429Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -153,7 +126,70 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Achievements.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Achievements.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Achievements.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Achievements.aspx.designer.cs",
+              "RelativeToolTip": "Salek_Portfolio\\Admin\\Achievements.aspx.designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:52:36.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Achievements.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Achievements.aspx.cs",
+              "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Achievements.aspx.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Achievements.aspx.cs",
+              "RelativeToolTip": "Salek_Portfolio\\Admin\\Achievements.aspx.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAuwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:52:17.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Achievements.aspx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Achievements.aspx",
+              "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Achievements.aspx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Achievements.aspx",
+              "RelativeToolTip": "Salek_Portfolio\\Admin\\Achievements.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-09T03:51:55.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Projects.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Projects.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx.designer.cs",
+              "RelativeToolTip": "Salek_Portfolio\\Admin\\Projects.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:48:45.357Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Projects.aspx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx",
+              "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Projects.aspx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx",
+              "RelativeToolTip": "Salek_Portfolio\\Admin\\Projects.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-09T03:48:01.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Skills.aspx",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Skills.aspx",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Skills.aspx",
@@ -166,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Logout.aspx.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Logout.aspx.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Logout.aspx.cs",
@@ -174,12 +210,28 @@
               "RelativeToolTip": "Salek_Portfolio\\Logout.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T02:47:02.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T02:47:02.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Default.aspx",
+              "RelativeDocumentMoniker": "Salek_Portfolio\\Default.aspx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Default.aspx",
+              "RelativeToolTip": "Salek_Portfolio\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-09T02:04:03.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Logout.aspx",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Logout.aspx",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Logout.aspx",
@@ -187,12 +239,11 @@
               "RelativeToolTip": "Salek_Portfolio\\Logout.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-09T02:46:33.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T02:46:33.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Default.aspx.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Default.aspx.cs",
@@ -200,12 +251,11 @@
               "RelativeToolTip": "Salek_Portfolio\\Admin\\Default.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T02:46:17.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T02:46:17.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Default.aspx",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Default.aspx",
@@ -218,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Login.aspx.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Login.aspx.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Login.aspx.cs",
@@ -226,12 +276,35 @@
               "RelativeToolTip": "Salek_Portfolio\\Login.aspx.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T02:45:20.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T02:45:20.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "PortfolioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Data\\PortfolioRepository.cs",
+              "RelativeDocumentMoniker": "Salek_Portfolio\\Data\\PortfolioRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Data\\PortfolioRepository.cs",
+              "RelativeToolTip": "Salek_Portfolio\\Data\\PortfolioRepository.cs",
+              "ViewState": "AgIAAEQBAAAAAAAAAAAuwFEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T02:18:16.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Projects.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx.cs",
+              "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Projects.aspx.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Projects.aspx.cs",
+              "RelativeToolTip": "Salek_Portfolio\\Admin\\Projects.aspx.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAuwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:48:20.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Skills.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Skills.aspx.designer.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Skills.aspx.designer.cs",
@@ -239,12 +312,11 @@
               "RelativeToolTip": "Salek_Portfolio\\Admin\\Skills.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T03:36:02.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T03:36:02.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "web.config",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\web.config",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\web.config",
@@ -252,12 +324,11 @@
               "RelativeToolTip": "Salek_Portfolio\\Admin\\web.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-09-09T03:20:34.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T03:20:34.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Skills.aspx.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Skills.aspx.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Skills.aspx.cs",
@@ -265,29 +336,11 @@
               "RelativeToolTip": "Salek_Portfolio\\Admin\\Skills.aspx.cs",
               "ViewState": "AgIAAHUAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T03:29:20.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T03:29:20.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PortfolioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Data\\PortfolioRepository.cs",
-              "RelativeDocumentMoniker": "Salek_Portfolio\\Data\\PortfolioRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Data\\PortfolioRepository.cs",
-              "RelativeToolTip": "Salek_Portfolio\\Data\\PortfolioRepository.cs",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAuwO0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T02:18:16.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Site.Master",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Site.Master",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Site.Master",
@@ -300,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Login.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Login.aspx.designer.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Login.aspx.designer.cs",
@@ -308,12 +361,11 @@
               "RelativeToolTip": "Salek_Portfolio\\Login.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T03:19:00.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T03:19:00.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Db.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Data\\Db.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Data\\Db.cs",
@@ -321,12 +373,11 @@
               "RelativeToolTip": "Salek_Portfolio\\Data\\Db.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAuwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T03:26:52.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T03:26:52.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Web.config",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Web.config",
@@ -339,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Db.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Data\\Db.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Data\\Db.cs",
@@ -347,12 +398,11 @@
               "RelativeToolTip": "Salek_Portfolio\\Data\\Db.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAA+wDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T02:17:49.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T02:17:49.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Default.aspx.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Default.aspx.cs",
@@ -360,12 +410,11 @@
               "RelativeToolTip": "Salek_Portfolio\\Default.aspx.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T02:07:52.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T02:07:52.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "main.js",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Scripts\\main.js",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Scripts\\main.js",
@@ -373,12 +422,11 @@
               "RelativeToolTip": "Salek_Portfolio\\Scripts\\main.js",
               "ViewState": "AgIAAD0AAAAAAAAAAAAuwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-09T02:04:49.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T02:04:49.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Site.css",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Content\\Site.css",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Content\\Site.css",
@@ -386,21 +434,7 @@
               "RelativeToolTip": "Salek_Portfolio\\Content\\Site.css",
               "ViewState": "AgIAAMcCAAAAAAAAAAAiwNsCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-09T02:04:36.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Default.aspx",
-              "RelativeDocumentMoniker": "Salek_Portfolio\\Default.aspx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Default.aspx",
-              "RelativeToolTip": "Salek_Portfolio\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-09T02:04:03.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T02:04:36.674Z"
             }
           ]
         }

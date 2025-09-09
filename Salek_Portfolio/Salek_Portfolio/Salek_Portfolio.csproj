@@ -104,6 +104,12 @@
     <Compile Include="Admin\Projects.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Admin\Achievements.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Achievements.aspx.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Admin\Projects.aspx.designer.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -113,6 +119,7 @@
     <Compile Include="Admin\Skills.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Content Include="Admin\Achievements.aspx" />
     <Content Include="Admin\Projects.aspx" />
     <Content Include="Admin\Skills.aspx">
       <SubType>ASPXCodeBehind</SubType>

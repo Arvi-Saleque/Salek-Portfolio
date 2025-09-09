@@ -236,5 +236,106 @@ namespace Salek_Portfolio.Data
             }
         }
 
+        /* ---------- ADMIN: Achievements grid ---------- */
+        public System.Data.DataTable GetAchievementsAll()
+        {
+            return Db.Table(@"
+        SELECT AchievementId, Title, Organization, AwardDate, [Description], VerifyUrl, Icon,
+               DisplayOrder, IsActive
+        FROM dbo.Achievements
+        ORDER BY DisplayOrder, Title;");
+        }
+
+        public int InsertAchievement(string title, string organization, DateTime? awardDate,
+            string description, string verifyUrl, string icon, int displayOrder, bool isActive)
+        {
+            var id = Db.Scalar(@"
+        INSERT INTO dbo.Achievements (Title, Organization, AwardDate, [Description], VerifyUrl, Icon, DisplayOrder, IsActive)
+        VALUES (@t,@o,@ad,@d,@v,@i,@o2,@a);
+        SELECT SCOPE_IDENTITY();",
+                new SqlParameter("@t", title),
+                new SqlParameter("@o", (object)organization ?? DBNull.Value),
+                new SqlParameter("@ad", (object)awardDate ?? DBNull.Value),
+                new SqlParameter("@d", (object)description ?? DBNull.Value),
+                new SqlParameter("@v", (object)verifyUrl ?? DBNull.Value),
+                new SqlParameter("@i", (object)icon ?? DBNull.Value),
+                new SqlParameter("@o2", displayOrder),
+                new SqlParameter("@a", isActive));
+            return Convert.ToInt32(id);
+        }
+
+        public int UpdateAchievement(int id, string title, string organization, DateTime? awardDate,
+            string description, string verifyUrl, string icon, int displayOrder, bool isActive)
+        {
+            return Db.Execute(@"
+        UPDATE dbo.Achievements SET
+            Title=@t, Organization=@o, AwardDate=@ad, [Description]=@d, VerifyUrl=@v, Icon=@i,
+            DisplayOrder=@o2, IsActive=@a, UpdatedAt=SYSUTCDATETIME()
+        WHERE AchievementId=@id;",
+                new SqlParameter("@t", title),
+                new SqlParameter("@o", (object)organization ?? DBNull.Value),
+                new SqlParameter("@ad", (object)awardDate ?? DBNull.Value),
+                new SqlParameter("@d", (object)description ?? DBNull.Value),
+                new SqlParameter("@v", (object)verifyUrl ?? DBNull.Value),
+                new SqlParameter("@i", (object)icon ?? DBNull.Value),
+                new SqlParameter("@o2", displayOrder),
+                new SqlParameter("@a", isActive),
+                new SqlParameter("@id", id));
+        }
+
+        public int DeleteAchievement(int id)
+        {
+            return Db.Execute("DELETE FROM dbo.Achievements WHERE AchievementId=@id;", new SqlParameter("@id", id));
+        }
+
+        public int GetNextAchievementDisplayOrder()
+        {
+            var val = Db.Scalar("SELECT ISNULL(MAX(DisplayOrder),0)+10 FROM dbo.Achievements;");
+            return Convert.ToInt32(val);
+        }
+
+        public void MoveAchievement(int id, bool up)
+        {
+            using (var con = new SqlConnection(Db.CS))
+            {
+                con.Open();
+                using (var tx = con.BeginTransaction())
+                using (var cmd = new SqlCommand() { Connection = con, Transaction = tx })
+                {
+                    cmd.CommandText = "SELECT DisplayOrder FROM dbo.Achievements WHERE AchievementId=@id;";
+                    cmd.Parameters.AddWithValue("@id", id);
+                    var currentOrder = Convert.ToInt32(cmd.ExecuteScalar());
+
+                    cmd.Parameters.Clear();
+                    cmd.CommandText = up
+                        ? @"SELECT TOP 1 AchievementId, DisplayOrder FROM dbo.Achievements
+                    WHERE DisplayOrder < @o ORDER BY DisplayOrder DESC;"
+                        : @"SELECT TOP 1 AchievementId, DisplayOrder FROM dbo.Achievements
+                    WHERE DisplayOrder > @o ORDER BY DisplayOrder ASC;";
+                    cmd.Parameters.AddWithValue("@o", currentOrder);
+
+                    int? nid = null; int norder = 0;
+                    using (var r = cmd.ExecuteReader())
+                        if (r.Read()) { nid = r.GetInt32(0); norder = r.GetInt32(1); }
+                    if (nid == null) { tx.Rollback(); return; }
+
+                    cmd.Parameters.Clear();
+                    cmd.CommandText = "UPDATE dbo.Achievements SET DisplayOrder=@o WHERE AchievementId=@id;";
+                    cmd.Parameters.AddWithValue("@o", norder);
+                    cmd.Parameters.AddWithValue("@id", id);
+                    cmd.ExecuteNonQuery();
+
+                    cmd.Parameters.Clear();
+                    cmd.CommandText = "UPDATE dbo.Achievements SET DisplayOrder=@o WHERE AchievementId=@id;";
+                    cmd.Parameters.AddWithValue("@o", currentOrder);
+                    cmd.Parameters.AddWithValue("@id", nid.Value);
+                    cmd.ExecuteNonQuery();
+
+                    tx.Commit();
+                }
+            }
+        }
+
+
     }
 }
