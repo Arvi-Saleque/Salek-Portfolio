@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\skills.aspx||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\skills.aspx||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\data\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\data\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\admin\\skills.aspx||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|solutionrelative:salek_portfolio\\admin\\skills.aspx||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45317B19-5E16-467E-ADD8-A7352DB489F6}|Salek_Portfolio\\Salek_Portfolio.csproj|c:\\users\\user\\source\\repos\\salek_portfolio\\salek_portfolio\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,11 +86,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Skills.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Skills.aspx.designer.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Skills.aspx.designer.cs",
@@ -103,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Skills.aspx.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Skills.aspx.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Skills.aspx.cs",
@@ -116,28 +132,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Skills.aspx",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Skills.aspx",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Skills.aspx",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Skills.aspx",
               "RelativeToolTip": "Salek_Portfolio\\Admin\\Skills.aspx",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAiwH8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAiwHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-09-09T03:28:45.229Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
@@ -180,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Admin\\Default.aspx.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Admin\\Default.aspx.cs",
@@ -219,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PortfolioRepository.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Salek_Portfolio\\Salek_Portfolio\\Data\\PortfolioRepository.cs",
               "RelativeDocumentMoniker": "Salek_Portfolio\\Data\\PortfolioRepository.cs",
@@ -229,10 +233,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T02:18:16.237Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",

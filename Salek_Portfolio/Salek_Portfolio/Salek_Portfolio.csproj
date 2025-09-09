@@ -101,12 +101,19 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <None Include="Admin\web.config" />
+    <Compile Include="Admin\Projects.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Projects.aspx.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Admin\Skills.aspx.designer.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\Skills.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Content Include="Admin\Projects.aspx" />
     <Content Include="Admin\Skills.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>
